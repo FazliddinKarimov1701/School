@@ -34,7 +34,7 @@ body {
     margin-top: 60px;
     transform: translateX(250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, rgb(52, 153, 253) 0%, rgb(17, 108, 199) 50%, blue 100%);
+    background: linear-gradient(180deg, rgb(17, 187, 187) 0%, rgb(12, 151, 151) 50%, rgb(14, 116, 116) 100%);
 }
 .sidebarMenuInner{
     margin:0;
@@ -140,14 +140,14 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     padding: 300px;
     font-size: 30px;
     color: #fff;
-    line-height: 0.3;
+    line-height: 0.1;
 }
 .header > img{
     max-width: 150px;
 }
 #big_text{
-    font-size: 60px;
-    font-family: ʻGotuʻ , sans-serif;
+    font-size: 70px;
+    font-family: ʻFira Sansʻ , sans-serif;
 }
 #about_img > img{
     width: 500px;
@@ -178,7 +178,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border-top-right-radius: 12px;
     font-size: 17px;
     outline: none;
-    margin-top: 20px    ;
+    margin-top: 20px;
 }
 #about_text > div > button:hover{
     background-color: rgb(12, 158, 158);
