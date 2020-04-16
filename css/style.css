@@ -23,7 +23,7 @@ body {
     overflow: -moz-hidden-unscrollable;
 	z-index: 10;
     box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.205);
-    border:1px solid rgba(128, 128, 128, 0.205)
+    border:1px solid rgba(128, 128, 128, 0.411)
 }
 
 #sidebarMenu {
@@ -161,7 +161,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     display: flex;
     align-items:center;
     justify-content: space-around;
-    margin: 100px 50px;
+    padding: 100px 50px;
 }
 #about_text{
     width: 350px;
@@ -191,4 +191,29 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 #about_text{
     line-height: 1.8;
+}
+#about{
+    box-shadow: 7px 7px 7px 7px rgba(163, 163, 163, 0.486);
+}
+#event_info_beginner > img,#event_info_concluder > img{
+    width: 300px;
+    height: 230px;
+}
+#event_info_main > img{
+    width: 400px;
+    height: 230px;
+}
+#event_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#events{
+    background-color: rgba(233, 233, 233, 0.61);
+    height: 600px; 
+    text-align: center;
+    padding-top: 100px;
+}
+#event_beginner{
+    margin-bottom: 70px;
 }
