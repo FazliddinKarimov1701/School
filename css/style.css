@@ -1,5 +1,6 @@
 html, body {
     overflow-x: hidden!important;
+    transition: 1s;
 }
 body {
     background: #fff;
@@ -194,7 +195,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     line-height: 1.8;
 }
 #about{
-    box-shadow: 7px 7px 7px 7px rgba(190, 190, 190, 0.705);
+    box-shadow: 7px 7px 7px 7px rgba(160, 160, 160, 0.705);
 }
 #event_info_beginner > img,#event_info_concluder > img{
     width: 350px;
@@ -258,7 +259,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border-bottom-right-radius: 25px;
 }
 #event_btn{
-    margin-top: 100px;
+    margin-top: 80px;
     background: linear-gradient(160deg, rgb(30, 192, 192) 0%, rgb(18, 163, 163) 50%, rgb(19, 141, 141) 100%);
     outline: none;
     color: white;
@@ -275,4 +276,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 #event_info > div > div > h2 {
     color: rgb(12, 158, 158);
+}
+#achievement{
+    background: linear-gradient(180deg , rgba(128, 128, 128, 0.836) 0%, rgba(128, 128, 128, 0.842) 50%, rgba(128, 128, 128, 0.774) 100%) ,url(../img/bg2.jpg);
+    text-align: center;
+    height: 400px;
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(33, 201, 201);
+    font-size: 20px;
+    font-weight: bolder;
+}
+#achieve_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#achieve_info > div > img{
+    width: 60px;
 }
