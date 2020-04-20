@@ -316,7 +316,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 #teachers_info > div > img{
     width: 350px;
-    height: 350px;
+    height: 320px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     position: absolute;
@@ -325,6 +325,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     padding: 40px 30px;
     text-align: justify;
     position: relative;
+    padding-top: 180px;
+    
+}
+#teachers_info > div > div:hover{
+    display: block;
+    background-color: rgba(12, 151, 151, 0.438);
+    color: white;
 }
 #teachers_title{
     text-align: center;
