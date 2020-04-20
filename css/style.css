@@ -351,8 +351,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     width: 220px;
     height: 50px;
     border-radius: 30px;
+    transition: 0.8s;
 }
 #teachers_btn > button:hover{
     background-color: rgb(12, 151, 151);
     color: white;
+    transition: 0.8s;
 }
