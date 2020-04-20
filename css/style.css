@@ -299,21 +299,35 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #images{
     margin: 0 70px;
 }
+#teachers{
+    background-color: rgb(247, 247, 247);
+    height: 600px;
+}
 #teachers_info{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 #teachers_info > div{
-    width: 370px;  
+    width: 350px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; 
+    background-color: white;
 }
 #teachers_info > div > img{
-    width: 370px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+    position: absolute;
 }
 #teachers_info > div > div{
-    padding: 10px 20px;
+    padding: 40px 30px;
     text-align: justify;
+    position: relative;
+}
+#teachers_title{
+    text-align: center;
+    padding: 70px 0;
+    font-size: 25px;
 }
