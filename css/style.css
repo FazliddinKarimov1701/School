@@ -358,3 +358,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     color: white;
     transition: 0.8s;
 }
+#school_life_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.school_life_info_child{
+    width: 350px;
+}
+.school_life_info_child > img{
+    width: 350px;
+    height: 270px;
+}
+.school_life_info_child > div{
+    padding: 10px 20px;
+}
+.school_life_info_child > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
