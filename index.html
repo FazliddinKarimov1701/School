@@ -7,9 +7,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/swiper.css">
     </head>
     <body>
         <header>
@@ -120,25 +120,73 @@
                 </div>
             </div>
         </section>
-        <section id="Suratlar">
+        <section id="teachers">
+
+        </section>
+        <section id="images">
+            <div id="images_title">
+                <h1>Foto Lavhalar</h1>
+                <div id="about_line"></div>
+            </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide">
+                        <img src="img/img.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img2.png" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img3.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img4.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/bg1.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/bg2.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img2.png" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/bg1.jpg" alt="bg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/bg2.jpg" alt="bg">
+                    </div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <script src="js/package.json"></script>
-        <script src="js/main.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 150,
+                    modifier: 1,
+                    slideShadows : true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
     </body>
 </html>

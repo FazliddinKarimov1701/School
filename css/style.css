@@ -250,14 +250,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
-#event_info_beginner > div{
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-#event_info_concluder > div{
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
+
 #event_btn{
     margin-top: 80px;
     background: linear-gradient(160deg, rgb(30, 192, 192) 0%, rgb(18, 163, 163) 50%, rgb(19, 141, 141) 100%);
@@ -297,25 +290,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #achieve_info > div > img{
     width: 60px;
 }
-.swiper-container {
-    width: 100%;
-    height: 100%;
+#images_title{
+    padding: 60px 150px;
 }
-.swiper-slide {
-    background: url(../img/img.jpg);
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+#images_title > h1{
+    font-size: 30px;
+}
+#images{
+    margin: 0 70px;
 }
