@@ -299,3 +299,21 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #images{
     margin: 0 70px;
 }
+#teachers_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#teachers_info > div{
+    width: 370px;  
+}
+#teachers_info > div > img{
+    width: 370px;
+    height: 250px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#teachers_info > div > div{
+    padding: 10px 20px;
+    text-align: justify;
+}
