@@ -366,10 +366,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .school_life_info_child{
     width: 350px;
     background-color: white;
+    box-shadow: 0px 7px 7px 7px rgba(177, 177, 177, 0.555);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.school_life_info_child > img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .school_life_info_child > img{
     width: 350px;
-    height: 270px;
+    height: 220px;
 }
 .school_life_info_child > div{
     padding: 10px 20px;
@@ -392,7 +399,20 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     width: 20px;
     height: 20px;
     margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 #school_life{
     background-color: rgb(247, 247, 247);
+}
+.calendar{
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: start!important;
+    margin:0;
 }
