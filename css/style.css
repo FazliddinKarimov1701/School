@@ -365,6 +365,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 .school_life_info_child{
     width: 350px;
+    background-color: white;
 }
 .school_life_info_child > img{
     width: 350px;
@@ -379,11 +380,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     justify-content: space-between;
     padding-bottom: 10px;
 }
+.school_life_info_child > div > div > div{
+    display: flex;
+    align-items: center;
+}
 #school_life_beginner > p{
     font-size: 17px;
     color: rgb(12, 151, 151);
 }
 .school_life_info_child_image{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#school_life{
+    background-color: rgb(247, 247, 247);
 }
