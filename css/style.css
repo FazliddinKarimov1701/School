@@ -379,3 +379,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     justify-content: space-between;
     padding-bottom: 10px;
 }
+#school_life_beginner > p{
+    font-size: 17px;
+    color: rgb(12, 151, 151);
+}
+.school_life_info_child_image{
+    width: 30px;
+    height: 30px;
+}
