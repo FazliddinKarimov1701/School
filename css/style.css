@@ -369,6 +369,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-shadow: 0px 7px 7px 7px rgba(177, 177, 177, 0.212);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    color: rgb(5, 5, 78);
 }
 .school_life_info_child > img {
     border-top-left-radius: 10px;
@@ -379,7 +380,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     height: 220px;
 }
 .school_life_info_child > div{
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 .school_life_info_child > div > div{
     display: flex;
@@ -435,4 +436,26 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 .date > p{
     margin: 0;
+}
+#school_life_btn{
+    outline: none;
+    background-color: white;
+    border: 1.5px solid rgb(12, 151, 151);
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    color: rgb(12, 151, 151);
+    transition: 0.9s;
+}
+#school_life_btn:hover{
+    background-color: rgb(12, 151, 151);
+    color: white;
+    border-radius: 7px;
+    transition: 0.9s;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+#school_life_concluder{
+    text-align: center;
 }
