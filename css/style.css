@@ -459,12 +459,27 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #school_life_concluder{
     text-align: center;
 }
+#table_btn{
+    text-align: center;
+    padding: 60px 0;
+    padding-bottom: 40px;
+    background-color: white;
+}
 #table_btn > button{
     outline: none;
-    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-    background: linear-gradient(to right, #25c481, #25b7c4);
-    width: 150px;
+    width: 170px;
     height: 40px;
     font-size: 16px;
-    border: 1px solid #25c481;
+    border: 1px solid #1aa86d;
+    border-radius: 5px;
+    color: #1d9c67;
+    background-color: white;
+    box-shadow: 0 5px 5px 5px rgba(155, 154, 154, 0.445);
+    transition: 0.9s;
+}
+#table_btn > button:hover{
+    background-color: #1aa86d;
+    color: whitesmoke;
+    box-shadow: 0 2px 2px 2px rgba(155, 154, 154, 0.329);
+    transition: 0.9s;
 }
