@@ -483,3 +483,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-shadow: 0 2px 2px 2px rgba(155, 154, 154, 0.329);
     transition: 0.9s;
 }
+#map > iframe{
+    width: 100vw;
+    height: 550px;
+}
