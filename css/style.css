@@ -459,3 +459,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #school_life_concluder{
     text-align: center;
 }
+#table_btn > button{
+    outline: none;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #25c481;
+}
