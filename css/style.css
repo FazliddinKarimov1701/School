@@ -139,8 +139,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #beginner > div{
     text-transform: uppercase;
     text-align: center;
-    padding: 300px;
-    font-size: 30px;
+    display:grid!important;
+    font-size: 2.5vw;
     color: #fff;
     line-height: 0.1;
 }
@@ -148,7 +148,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     max-width: 150px;
 }
 #big_text{
-    font-size: 70px;
+    font-size: 5vw;
     font-family: ʻFira Sansʻ , sans-serif;
 }
 #about_img > img{
@@ -506,7 +506,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border-radius: 50px;
 }
 #footer > div{
-    margin-top: 70px;
     text-align: center;
     background-color: rgb(29, 29, 29);
     color: white;
