@@ -490,3 +490,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: center;
     font-size: 35px;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.349); 
+    background-color: rgb(24, 190, 190);
+    border-radius: 50px;
+}
+#footer > div{
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin-bottom: 0;
+    padding: 10px;
+}
