@@ -198,78 +198,30 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 #about{
     box-shadow: 7px 7px 7px 7px rgba(160, 160, 160, 0.705);
 }
-#event_info_beginner > img,#event_info_concluder > img{
-    width: 350px;
-    height: 230px;
-}
-#event_info_main > img{
-    width: 400px;
-    height: 230px;
+#event_beginner{
+    text-align: center;
 }
 #event_info{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-#events{
-    background-color: rgba(224, 223, 223, 0.836);
-    height: 600px; 
-    text-align: center;
-    padding-top: 100px;
-}
-#event_beginner{
-    margin-bottom: 70px;
-    line-height: 0.1;
-}
-#event_info > div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#event_info > div > div{
-    background-color: white;
-    box-shadow: rgba(128, 128, 128, 0.911);
-    width: 230px;
-    padding: 5px 25px
-}
-#event_info > div > div{
-    position: relative;
-    margin-top: 200px;
-    line-height: 0.5;
+    margin: 100px 0;
 }
 #event_info > div > img{
-    position : absolute;
+    width: 360px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-#event_info > div > img:hover{
-    background: linear-gradient(160deg, rgb(30, 192, 192) 0%, rgb(18, 163, 163) 50%, rgb(19, 141, 141) 100%);
+#event_info > div{
+    text-align: justify;
+    width: 360px;
+    box-shadow: 0 10px 10px 10px rgba(156, 156, 156, 0.404);
+    border-radius: 10px;
 }
-#event_info_beginner > img{
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-}
-#event_info_concluder > img{
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-#event_btn{
-    margin-top: 80px;
-    background: linear-gradient(160deg, rgb(30, 192, 192) 0%, rgb(18, 163, 163) 50%, rgb(19, 141, 141) 100%);
-    outline: none;
-    color: white;
-    border: 0.1px solid rgb(12, 158, 158);
-    width: 170px;
-    height: 45px;
-    font-size: 17px;
-    transition: 1s;
-    border-radius: 5px;
-}
-#event_btn:hover{
-    transition: 0.7s;
-    background: linear-gradient(160deg, rgb(21, 151, 151) 0%, rgb(12, 129, 129) 50%, rgb(11, 110, 110) 100%);
-}
-#event_info > div > div > h2 {
-    color: rgb(12, 158, 158);
+#event_info > div > div{
+    padding: 30px;
+    line-height: 1.5;
 }
 #achievement{
     background: linear-gradient(180deg , rgba(128, 128, 128, 0.836) 0%, rgba(128, 128, 128, 0.842) 50%, rgba(128, 128, 128, 0.774) 100%) ,url(../img/bg2.jpg);

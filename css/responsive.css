@@ -8,20 +8,12 @@
         display: none;
     }
   }
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 1200px){
     #event_info{
         flex-direction: column;
     }
-    #event_info > div > div{
-        position: none;
-    }
     #event_info > div{
-        border: 1px solid grey;
-        width: 400px;
-        padding: 10px
-
-    }
-    #event_info_beginner > img,#event_info_concluder > img{
-        border-radius: 0;
+        margin-bottom: 50px;
     }
 }
+@media only screen and (max-width: 850)
