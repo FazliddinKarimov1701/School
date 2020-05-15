@@ -136,6 +136,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     height:700px;
     max-height: 700px;
     background: linear-gradient(180deg, rgba(128, 128, 128, 0.664), rgba(128, 128, 128, 0.644)), url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #beginner > div{
     text-transform: uppercase;
