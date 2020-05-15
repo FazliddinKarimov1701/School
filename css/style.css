@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     overflow: hidden;
+    margin-right: 0!important;
 }
 .header {
     display: block;
@@ -472,6 +473,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     justify-content: space-evenly;
     position: relative;
     margin-top: 500px;
+    margin-bottom: 50px;
 }
 #location_info > div > img{
     width: 40px;
