@@ -219,7 +219,10 @@
 .p-t-11 {padding-top: 11px;}
 .p-t-12 {padding-top: 12px;}
 .p-t-13 {padding-top: 13px;}
-.p-t-14 {padding-top: 14px;}
+.p-t-14 {padding-top: 14px
+	$('.js-tilt').tilt({
+		scale: 1.1
+	});}
 .p-t-15 {padding-top: 15px;}
 .p-t-16 {padding-top: 16px;}
 .p-t-17 {padding-top: 17px;}
@@ -479,7 +482,10 @@
 .p-b-20 {padding-bottom: 20px;}
 .p-b-21 {padding-bottom: 21px;}
 .p-b-22 {padding-bottom: 22px;}
-.p-b-23 {padding-bottom: 23px;}
+.p-b-23 {padding-bottom: 2
+	$('.js-tilt').tilt({
+		scale: 1.1
+	})3px;}
 .p-b-24 {padding-bottom: 24px;}
 .p-b-25 {padding-bottom: 25px;}
 .p-b-26 {padding-bottom: 26px;}
@@ -522,7 +528,10 @@
 .p-b-63 {padding-bottom: 63px;}
 .p-b-64 {padding-bottom: 64px;}
 .p-b-65 {padding-bottom: 65px;}
-.p-b-66 {padding-bottom: 66px;}
+.p-b-66 {padding-bottom: 6
+	$('.js-tilt').tilt({
+		scale: 1.1
+	})6px;}
 .p-b-67 {padding-bottom: 67px;}
 .p-b-68 {padding-bottom: 68px;}
 .p-b-69 {padding-bottom: 69px;}
