@@ -16,4 +16,18 @@
         margin-bottom: 50px;
     }
 }
-@media only screen and (max-width: 850)
+@media only screen and (max-width: 850px){
+    #achieve_info > div{
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    #achieve_info{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 500px){
+    #achieve_info{
+        flex-direction: column;
+    }
+}
