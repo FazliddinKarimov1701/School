@@ -1,0 +1,132 @@
+html, body {
+    overflow-x: hidden!important;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    margin-right: 0!important;
+}
+.header {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height:100%;
+    max-height: 100%;
+    background-color: white;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height: 60px!important;
+    overflow: -moz-hidden-unscrollable;
+	z-index: 10;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.486);
+    border:1px solid rgba(128, 128, 128, 0.411)
+}
+
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(250px);
+    transition: transform 250ms ease-in-out;
+    background: linear-gradient(180deg, rgb(17, 187, 187) 0%, rgb(12, 151, 151) 50%, rgb(14, 116, 116) 100%);
+    z-index: 9;
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.123);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+.sidebarMenuInner li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    right: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
